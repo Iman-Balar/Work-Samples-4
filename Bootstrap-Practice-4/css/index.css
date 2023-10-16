@@ -1,0 +1,451 @@
+html , body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myNav{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid rgba(212, 211, 211, 0.813);
+}
+
+.sbt{
+    text-decoration: none;
+    color: black;
+    margin-top: 23px;
+    margin-left: 93px;
+    font-size: 18px;
+}
+
+.features{
+    text-decoration: none;
+    color: black;
+    margin-top: 24px;
+    margin-left: 712px;
+    font-size: 17px;
+}
+
+.download{
+    text-decoration: none;
+    color: black;
+    margin-top: 24px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.sf{
+    background-color: #0010ea;
+    color: white;
+    border: 1px solid transparent;
+    width: 157px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 16px;
+    margin-left: 50px;
+    padding-left: 35px;
+    padding-top: 7px;
+    font-size: 15px;
+}
+
+.msg-icon{
+    color: white;
+    position: absolute;
+    top: 28px;
+    left: 1174px;
+}
+
+.sbt:hover{
+    color: rgb(0, 0, 213);
+}
+
+.features:hover{
+    color: rgb(0, 115, 109);
+}
+
+.download:hover{
+    color: rgb(0, 115, 109);
+}
+
+.sf:hover{
+    background-color: rgb(0, 0, 172); 
+    cursor: pointer;
+}
+
+.msg-icon:hover{
+    cursor: pointer;
+}
+
+.section1{
+    background-color: white;
+    width: 100%;
+    height: 734px;
+}
+
+.Advertise{
+    position: absolute;
+    height: 35rem;
+    top: 150px;
+    left: 900px;
+}
+
+.first-text{
+    font-size: 70px;
+    position: absolute;
+    top: 239px;
+    left: 94px;
+}
+
+.second-text{
+    font-size: 70px;
+    position: absolute;
+    top: 315px;
+    left: 94px;
+}
+
+.short-text1{
+    font-size: 20px;
+    position: absolute;
+    top: 430px;
+    left: 94px;
+}
+
+.short-text2{
+    font-size: 20px;
+    position: absolute;
+    top: 460px;
+    left: 94px;
+}
+
+.store{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 480px;
+    left: 94px;
+}
+
+.apple{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 480px;
+    left: 280px;
+}
+
+.section2{
+    background-color: rgb(86, 10, 250);
+    width: 100%;
+    height: 329px;
+}
+
+.num1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 67px;
+}
+
+.num2{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    position: absolute;
+    top: 860px;
+    left: 327px;
+}
+
+.icon{
+    color: white;
+    width: 115px;
+    height: 115px;
+    margin-left: 655px;
+    margin-top: 26px;
+}
+
+.section3{
+    background-color: white;
+    width: 100%;
+    height: 710px;
+}
+
+.Advertise2{
+    margin-top: 85px;
+    margin-left: 92px;
+    width: 280px;
+    height: 540px;
+}
+
+.mobilee{
+    font-size: 70px;
+    color: blue;
+    position: absolute;
+    top: 1200px;
+    left: 701px;
+}
+
+.mobile-text{
+    font-size: 25px;
+    position: absolute;
+    top: 1300px;
+    left: 630px;
+}
+
+.text1{
+    position: absolute;
+    top: 1345px;
+    left: 580px;
+}
+
+.text2{
+    position: absolute;
+    top: 1370px;
+    left: 650px;
+}
+
+.gift{
+    font-size: 70px;
+    color: blue;
+    position: absolute;
+    top: 1450px;
+    left: 700px;
+}
+
+.gift-text{
+    font-size: 25px;
+    position: absolute;
+    top: 1550px;;
+    left: 670px;
+}
+
+.textt1{
+    position: absolute;
+    top: 1595px;
+    left: 580px;
+}
+
+.textt2{
+    position: absolute;
+    top: 1620px;
+    left: 650px;
+}
+
+.camera{
+    font-size: 70px;
+    color: blue;
+    position: absolute;
+    top: 1200px;
+    left: 1080px;
+}
+
+.camera-text{
+    font-size: 25px;
+    position: absolute;
+    top: 1300px;
+    left: 1045px;
+}
+
+.ttext1{
+    position: absolute;
+    top: 1345px;
+    left: 960px;
+}
+
+.ttext2{
+    position: absolute;
+    top: 1370px;
+    left: 1050px;
+}
+
+.tick{
+    font-size: 70px;
+    color: blue;
+    position: absolute;
+    top: 1450px;
+    left: 1080px;
+}
+
+.tick-text{
+    font-size: 25px;
+    position: absolute;
+    top: 1550px;
+    left: 1045px;
+}
+
+.textNum1{
+    position: absolute;
+    top: 1595px;
+    left: 960px;
+}
+
+.textNum2{
+    position: absolute;
+    top: 1620px;
+    left: 1070px;
+}
+
+.section4{
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 743px;
+}
+
+.textOne{
+    font-size: 55px;
+    padding-top: 210px;
+    padding-left: 95px;
+}
+
+.textTwo{
+    font-size: 55px;
+    padding-left: 95px;
+    position: absolute;
+    top: 2040px;
+}
+
+.Paragraph1{
+    padding-top: 60px;
+    padding-left: 95px;
+    font-size: 20px;
+}
+
+.Paragraph2{
+    padding-left: 95px;
+    font-size: 20px;
+    position: absolute;
+    top: 2170px;
+}
+
+.Paragraph3{
+    padding-left: 95px;
+    font-size: 20px;
+    position: absolute;
+    top: 2197px;
+}
+
+.Paragraph4{
+    padding-left: 95px;
+    font-size: 20px;
+    position: absolute;
+    top: 2225px;
+}
+
+.Paragraph5{
+    padding-left: 95px;
+    font-size: 20px;
+    position: absolute;
+    top: 2250px;
+}
+
+.circle{
+    width:  590px;
+    height: 590px;
+    position: absolute;
+    top: 1848px;
+    left: 728px;
+    border: 1px solid transparent;
+    border-radius: 1000px;
+}
+
+.picture{
+    width: 100%;
+    height: 740px;
+}
+
+.bg-picture{
+    background-color: black;
+    width: 100%;
+    height: 740px;
+    opacity: 0.50;
+    position: absolute;
+    top: 2516px;
+}
+
+.boldText1{
+    position: absolute;
+    top:  2705px;
+    left: 100px;
+    font-size: 80px;
+}
+
+.boldText2{
+    position: absolute;
+    top: 2790px;
+    left: 100px;
+    font-size: 80px;
+}
+
+.dl{
+    position: absolute;
+    top: 2930px;
+    left: 100px;
+    width: 180px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+.dl:hover{
+    background-color: white;
+    color: black !important;
+    cursor: pointer;
+}
+
+.purple-bg{
+    background-color: rgb(62, 62, 246);
+    width: 100%;
+    height: 250px;
+}
+
+.get-app{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.play-store{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 3340px;
+    left: 555px;
+}
+
+.app-store{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 3340px;
+    left: 720px;
+}
+
+.bg-black{
+    width: 100%;
+    height: 140px;
+}
+
+.last-text1{
+    color: rgb(126, 126, 126);
+    text-align: center;
+    font-size: 15px;
+    padding-top: 40px;
+}
+
+.last-text2{
+    color: rgb(126, 126, 126);
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 3575px;
+    left: 639px;
+}
